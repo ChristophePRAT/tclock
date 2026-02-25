@@ -1,6 +1,10 @@
 # tclock
 
-A simple, aesthetic, and resource-efficient terminal clock written in Rust.
+**A simple, aesthetic, and resource-efficient terminal clock written in Rust.**
+
+<img width="1703" height="979" alt="tclock in action" src="https://github.com/user-attachments/assets/3e3cadc2-7d35-48d2-bce4-a5ffcdf0d234" />
+
+_(command ran: `tclock -f -S -d`)_
 
 ## Features
 
@@ -15,6 +19,13 @@ A simple, aesthetic, and resource-efficient terminal clock written in Rust.
 ### Prerequisites
 
 You must have [Rust](https://www.rust-lang.org/tools/install) and `cargo` installed.
+
+### Install using cargo
+
+You can simply install the package using:
+```bash
+cargo install tclock
+```
 
 ### Install from Source
 
