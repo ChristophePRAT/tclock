@@ -6,6 +6,8 @@
 
 _(command ran: `tclock -f -S -d`)_
 
+[![Rust](https://github.com/ChristophePRAT/tclock/actions/workflows/rust.yml/badge.svg)](https://github.com/ChristophePRAT/tclock/actions/workflows/rust.yml)
+
 ## Features
 
 - **Proportional Design:** Digits are visually balanced while maintaining a stable layout.
