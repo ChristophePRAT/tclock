@@ -21,7 +21,7 @@ You must have [Rust](https://www.rust-lang.org/tools/install) and `cargo` instal
 Clone the repository and run:
 
 ```bash
-git clone https://github.com/your-username/tclock.git
+git clone https://github.com/ChristophePRAT/tclock.git
 cd tclock
 cargo install --path .
 ```
