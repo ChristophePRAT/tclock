@@ -22,7 +22,7 @@ struct Args {
     color: String,
 
     /// Background color
-    #[arg(short = 'B', long, default_value = "black")]
+    #[arg(short = 'B', long, default_value = "reset")]
     bg_color: String,
 
     /// Scale multiplier. Overridden by --fullscreen.
@@ -63,7 +63,7 @@ fn parse_color(color: &str) -> Color {
         "red" => Color::Red, "green" => Color::Green, "blue" => Color::Blue,
         "yellow" => Color::Yellow, "cyan" => Color::Cyan, "magenta" => Color::Magenta,
         "white" => Color::White, "black" => Color::Black, "grey" | "gray" => Color::Grey,
-        "dark_grey" | "dark_gray" => Color::DarkGrey, _ => Color::White,
+        "dark_grey" | "dark_gray" => Color::DarkGrey, "reset" => Color::Reset, _ => Color::White,
     }
 }
 

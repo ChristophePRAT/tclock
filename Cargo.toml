@@ -1,7 +1,13 @@
 [package]
-name = "terminal-clock"
+name = "tclock"
 version = "0.1.0"
 edition = "2024"
+authors = ["Your Name <your.email@example.com>"]
+description = "A simple, aesthetic, and resource-efficient terminal clock with scaling and animations."
+license = "MIT"
+keywords = ["clock", "tui", "terminal", "aesthetic", "cli"]
+categories = ["command-line-utilities", "visualization"]
+repository = "https://github.com/your-username/terminal-clock"
 
 [dependencies]
 chrono = "0.4.44"
